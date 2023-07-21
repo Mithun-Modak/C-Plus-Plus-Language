@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    float area ,b,h;
+//cout means  "character output" in compiler 
+    cout<<"enter n and h : "<<endl;
+    cin>>b>>h;
+//cin means user given input
+
+    area = 0.5*b*h;
+    cout<<area;
+/* this code Calculating area of triangle it's quite easy for everyone  */
+
+
+
+}
