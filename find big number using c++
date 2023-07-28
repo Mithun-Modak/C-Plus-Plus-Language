@@ -1,0 +1,15 @@
+
+#include<bits/stdc++.h>
+#include<conio.h>
+
+using namespace std;
+int main()
+{
+    int n=10,m=12;
+    int max= (m>n)?m:n;
+    cout<<"max number :  "<<max;
+
+
+
+
+}
