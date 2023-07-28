@@ -1,0 +1,44 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+
+{
+
+           int n,mark;
+        cout<<"enter your marks";
+        cin >>mark;
+
+
+        if (mark>32){
+
+
+         if (mark >=80 && mark <=100)
+            printf("A+");
+
+        else if (mark >= 70&& mark <=79)
+            printf("A");
+
+
+        else if (mark >=60 && mark <=69)
+            printf("A-");
+
+
+
+            else if (mark >=50 && mark <=59)
+            printf("B");
+
+
+
+            else if (mark >=40 && mark <=49)
+            printf("C");
+
+
+       else if (mark >=33 && mark <=39)
+            printf("D");
+
+        }
+else
+    cout <<"you got fail";
+
+}
