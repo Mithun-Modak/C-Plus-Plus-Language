@@ -1,0 +1,45 @@
+
+#include<bits/stdc++.h>
+
+using namespace std;
+class student
+
+{
+public:
+
+    int name;
+    int roll;
+
+
+    void display()
+    {
+        cout<<name<<" "<<roll<<endl;
+    }
+
+
+    void setvalue(int x,int y)
+    {
+
+
+        name=x;
+        roll=y;
+
+    }
+
+
+};
+
+
+int main()
+{
+    student m,n;
+    m.setvalue(12,20);
+    m.display();
+
+
+    n.setvalue(100,500);
+    n.display();
+
+
+
+}
